@@ -1,0 +1,12 @@
+.nav {
+}
+
+.nav__list-header {
+  display: flex;
+  align-items: center;
+  padding-left: 53px;
+  gap: 31px;
+  font-family: var(--second-family);
+  font-size: 16px;
+  color: var(--base-text-secondary);
+}

@@ -3,3 +3,14 @@
 @import './styles/normalize.css';
 @import './styles/global/utility.css';
 @import './styles/components/container.css';
+@import './styles/components/page.css';
+@import './styles/components/header.css';
+@import './styles/components/nav.css';
+@import './styles/components/button.css';
+@import './styles/style.css';
+@import './styles/components/services.css';
+@import './styles/components/title.css';
+@import './styles/components/person.css';
+@import './styles/components/statistics.css';
+@import './styles/components/video.css';
+@import './styles/components/feature.css';

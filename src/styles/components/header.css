@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 21px 129px 21px 111px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-family: Leifa, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 100%;
+  color: var(--base-text-logo);
+}
+
+.header__nav {
+  width: 100%;
+  max-width: 800px;
+}
+
+.header__content {
+}
+
+.header__button {
+  padding: 5px 20px;
+  font-size: 14px;
+}

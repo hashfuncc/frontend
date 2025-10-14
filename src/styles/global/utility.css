@@ -1,6 +1,11 @@
 body {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
+  background-color: var(--base-bg-primary);
+  color: var(--base-text-secondary);
+  font-family: var(--font-family, --second-family, sans-serif);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  border: transparent;
 }

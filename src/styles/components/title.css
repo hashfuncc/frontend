@@ -1,0 +1,40 @@
+.title {
+}
+
+.title--h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 112%;
+  color: var(--base-text-primary);
+  text-transform: capitalize;
+}
+
+.title--h2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 119%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-primary);
+  text-transform: capitalize;
+}
+
+.title--h3 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 124%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--base-text-on-dark);
+}
+
+.title--h3-dark {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 124%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-primary);
+}

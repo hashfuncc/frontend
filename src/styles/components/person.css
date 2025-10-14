@@ -1,0 +1,29 @@
+.person {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.person__img {
+}
+
+.person__info {
+  width: 100%;
+}
+
+.person__title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-black);
+}
+
+.person__text {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-black);
+}

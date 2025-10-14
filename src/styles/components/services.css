@@ -1,0 +1,29 @@
+.services {
+  background-color: var(--base-bg-secondary);
+  padding: 134px 406px 99px 111px;
+}
+
+.services__title {
+}
+
+.services__text {
+  padding: 31px 23px 36px 0;
+  font-family: var(--font-family);
+  font-style: italic;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.43px;
+  color: var(--base-text-black);
+}
+
+.services__person {
+  padding-bottom: 36px;
+}
+
+.services__buttom {
+  padding: 15px 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+}
