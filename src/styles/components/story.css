@@ -1,0 +1,53 @@
+.story {
+  padding: 115px 165px;
+}
+
+.story__content {
+  display: flex;
+  padding: 119px 0 116px 95px;
+  gap: 47px;
+  background: var(--base-bg-secondary);
+}
+
+.story__context {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.story__title {
+  padding-right: 16px;
+  padding-bottom: 32px;
+}
+
+.story__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 124%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-secondary);
+  padding-bottom: 32px;
+}
+
+.story__logo-logitech {
+}
+
+.story__button {
+  padding: 8px 0;
+  gap: 8px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--global-primary);
+  background: var(--base-bg-secondary);
+}
+
+.story__swap {
+  padding-top: 30px;
+}
+
+.story__img {
+}

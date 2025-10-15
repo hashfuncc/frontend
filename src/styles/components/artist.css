@@ -1,0 +1,34 @@
+.artist {
+}
+
+.artist__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.artist__img {
+  border-radius: 3px;
+  width: 350px;
+  height: 380px;
+  background: var(--base-bg-secondary);
+}
+
+.artist__name {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 142%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-primary);
+  padding-top: 24px;
+  padding-bottom: 4px;
+}
+
+.artist__post {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-secondary);
+}
