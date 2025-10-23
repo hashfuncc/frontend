@@ -3,10 +3,35 @@
 
 .nav__list-header {
   display: flex;
-  align-items: center;
-  padding-left: 53px;
-  gap: 31px;
+  flex-wrap: wrap;
+  gap: 15px 31px;
   font-family: var(--second-family);
   font-size: 16px;
   color: var(--base-text-secondary);
+}
+
+.nav__list-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 30px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--base-text-on-dark);
+}
+
+.nav__item {
+}
+
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: rgb(241 53 157);
 }

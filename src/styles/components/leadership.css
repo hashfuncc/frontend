@@ -2,6 +2,12 @@
   padding: 100px 165px;
 }
 
+@media screen and (width <= 1023px) {
+  .leadership {
+    padding: 40px 16px;
+  }
+}
+
 .leadership__content {
   display: flex;
   flex-direction: column;
@@ -17,6 +23,14 @@
   padding-bottom: 24px;
 }
 
+@media screen and (width <= 767px) {
+  .leadership__title {
+    font-size: 20px;
+    line-height: 1.4;
+    padding-bottom: 16px;
+  }
+}
+
 .leadership__context {
   display: flex;
   align-items: flex-end;
@@ -25,8 +39,25 @@
   padding-bottom: 50px;
 }
 
+@media screen and (width <= 767px) {
+  .leadership__context {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
 .leadership__text {
   max-width: 730px;
+}
+
+@media screen and (width <= 767px) {
+  .leadership__text {
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    max-width: 100%;
+  }
 }
 
 .leadership__switch {
@@ -34,6 +65,34 @@
   fill: var(--base-bg-secondary);
   display: flex;
   gap: 15px;
+}
+
+.leadership__button {
+  background-color: transparent;
+  border: 1px solid var(--base-boarder);
+  color: var(--base-text-primary);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.leadership__button:hover {
+  background-color: var(--base-bg-inputs);
+  border-color: var(--base-text-primary);
+}
+
+.leadership__button:focus {
+  outline: 2px solid var(--global-primary);
+  outline-offset: 2px;
 }
 
 .leadership__artists {

@@ -30,7 +30,6 @@
   line-height: 142%;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #18191f;
 }
 
 .work__item-text {
@@ -40,6 +39,6 @@
   line-height: 162%;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #18191f;
+  color: var(--base-text-primary);
   padding-bottom: 32px;
 }

@@ -6,3 +6,9 @@
   background-color: var(--global-primary);
   color: var(--base-text-on-dark);
 }
+
+.button:hover,
+.button:focus {
+  outline: 2px solid var(--global-primary);
+  outline-offset: 2px;
+}

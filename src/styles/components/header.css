@@ -1,8 +1,27 @@
 .header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   padding: 21px 129px 21px 111px;
+}
+
+@media (--md-viewport) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+  }
+
+  .header__logo {
+    font-size: 20px;
+  }
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 53px;
 }
 
 .header__logo {
@@ -15,9 +34,13 @@
   color: var(--base-text-logo);
 }
 
+.header__logo:hover {
+  color: rgb(241 53 157);
+}
+
 .header__nav {
   width: 100%;
-  max-width: 800px;
+  max-width: 500px;
 }
 
 .header__content {

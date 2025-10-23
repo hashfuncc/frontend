@@ -14,4 +14,17 @@
 
 .page__footer {
   flex-shrink: 0;
+  background-color: var(--base-bg-dark);
+}
+
+.page__services {
+  background-color: var(--base-bg-secondary);
+}
+
+.page__statistics {
+  background-color: var(--global-primary);
+}
+
+.page__partner {
+  background: var(--base-bg-secondary);
 }

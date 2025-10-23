@@ -41,3 +41,8 @@
   letter-spacing: -0.02em;
   color: var(--base-text-secondary);
 }
+
+.feature__picture {
+  margin-left: auto;
+  margin-right: auto;
+}

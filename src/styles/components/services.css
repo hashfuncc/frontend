@@ -1,6 +1,21 @@
 .services {
-  background-color: var(--base-bg-secondary);
   padding: 134px 406px 99px 111px;
+}
+
+@media (width <= 564px) {
+  .services {
+    padding: 75px 2px;
+  }
+}
+
+.services__content {
+}
+
+@media (width <= 564px) {
+  .container {
+    max-width: 100%;
+    margin: 0 15px;
+  }
 }
 
 .services__title {

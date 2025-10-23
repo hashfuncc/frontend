@@ -12,7 +12,7 @@
   position: relative;
 }
 
-.video_picture-description {
+.video__description {
   position: absolute;
   bottom: 31px;
   left: 29px;
@@ -26,6 +26,7 @@
 }
 
 .video__context {
+  max-width: 635px;
   display: flex;
   flex-direction: column;
   gap: 30px;

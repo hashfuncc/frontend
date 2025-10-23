@@ -1,5 +1,4 @@
 .partner {
-  background: var(--base-bg-secondary);
   padding: 103px 165px 100px;
 }
 
@@ -32,7 +31,7 @@
   padding: 15px 25px;
 }
 
-.partner__line__wrapper {
+.partner__line-wrapper {
   padding-top: 43px;
   padding-bottom: 50px;
 }
@@ -43,10 +42,14 @@
   background: var(--base-boarder);
 }
 
-.partner__icons {
+.partner__icon {
   padding: 0 84px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
+}
+
+.partner__icon--bottom {
+  padding-top: 9px;
 }
