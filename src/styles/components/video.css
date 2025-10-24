@@ -58,3 +58,31 @@
   letter-spacing: -0.02em;
   color: var(--base-text-primary);
 }
+
+.video__button {
+  background-color: transparent;
+  border: 1px solid var(--base-boarder);
+  color: var(--base-text-primary);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.video__button:hover {
+  background-color: var(--base-bg-inputs);
+  border-color: var(--base-text-primary);
+}
+
+.video__button:focus {
+  outline: 2px solid var(--global-primary);
+  outline-offset: 2px;
+}

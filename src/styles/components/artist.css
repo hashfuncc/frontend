@@ -3,7 +3,7 @@
 
 .artist__block {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
 }
 
 .artist__img {

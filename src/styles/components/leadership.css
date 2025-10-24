@@ -97,6 +97,6 @@
 
 .leadership__artists {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   gap: 30px;
 }
