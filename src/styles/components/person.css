@@ -4,6 +4,12 @@
   gap: 24px;
 }
 
+@media screen and (width <= 1023px) {
+  .person {
+    gap: 10px;
+  }
+}
+
 .person__img {
 }
 

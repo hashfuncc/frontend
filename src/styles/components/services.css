@@ -2,23 +2,32 @@
   padding: 134px 406px 99px 111px;
 }
 
-@media (width <= 564px) {
+@media screen and (width <= 1023px) {
   .services {
-    padding: 75px 2px;
+    padding: 20px 16px;
+    align-items: center;
+    text-align: center;
   }
 }
 
 .services__content {
 }
 
-@media (width <= 564px) {
-  .container {
-    max-width: 100%;
-    margin: 0 15px;
+.services__title {
+}
+
+@media screen and (width <= 1023px) {
+  .services__title {
+    font-size: 42px;
+    line-height: 1.2;
   }
 }
 
-.services__title {
+@media screen and (width <= 767px) {
+  .services__title {
+    font-size: 32px;
+    line-height: 1.2;
+  }
 }
 
 .services__text {

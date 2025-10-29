@@ -2,7 +2,27 @@
   padding: 71px 165px 64px;
 }
 
+@media screen and (width <= 1023px) {
+  .statistics {
+    padding: 40px 16px;
+  }
+}
+
 .statistics__title {
+}
+
+@media screen and (width <= 1023px) {
+  .statistics__title {
+    font-size: 42px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (width <= 767px) {
+  .statistics__title {
+    font-size: 32px;
+    line-height: 1.2;
+  }
 }
 
 .statistics_text {
@@ -16,11 +36,27 @@
   color: var(--base-text-on-dark);
 }
 
+@media screen and (width <= 767px) {
+  .statistics_text {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
 .statistics__list {
   padding-top: 55px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media screen and (width <= 767px) {
+  .statistics__list {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-top: 24px;
+  }
 }
 
 .statistics__item {
@@ -42,6 +78,13 @@
   color: var(--base-text-on-dark);
 }
 
+@media screen and (width <= 767px) {
+  .statistics__num {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+}
+
 .statistics__span {
   font-family: var(--font-family);
   font-weight: 400;
@@ -52,10 +95,25 @@
   color: var(--base-text-on-dark);
 }
 
+@media screen and (width <= 767px) {
+  .statistics__span {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
 .statistics__divider {
   height: 96px;
   width: 1px;
   background-color: var(--base-text-on-dark);
   opacity: 0.4;
   transform-origin: center;
+}
+
+@media screen and (width <= 1298px) {
+  .statistics__divider {
+    height: 1px;
+    width: 100%;
+    margin: 16px 0;
+  }
 }

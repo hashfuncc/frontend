@@ -2,11 +2,28 @@
   padding: 115px 165px;
 }
 
+@media screen and (width <= 1365px) {
+  .story {
+    padding: 40px 16px;
+  }
+}
+
 .story__content {
   display: flex;
   padding: 119px 0 116px 95px;
   gap: 47px;
   background: var(--base-bg-secondary);
+}
+
+@media screen and (width <= 1365px) {
+  .story__content {
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px;
+    background: var(--base-bg-primary);
+    border-radius: 8px;
+    gap: 24px;
+  }
 }
 
 .story__context {
@@ -16,9 +33,34 @@
   max-width: 588px;
 }
 
+@media screen and (width <= 1365px) {
+  .story__context {
+    align-items: center;
+    max-width: 100%;
+    gap: 16px;
+  }
+}
+
 .story__title {
   padding-right: 16px;
   padding-bottom: 32px;
+}
+
+@media screen and (width <= 1365px) {
+  .story__title {
+    font-size: 32px;
+    line-height: 1.2;
+    padding-right: 0;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+}
+
+@media screen and (width <= 767px) {
+  .story__title {
+    font-size: 24px;
+    line-height: 1.2;
+  }
 }
 
 .story__text {
@@ -29,6 +71,22 @@
   letter-spacing: -0.02em;
   color: var(--base-text-secondary);
   padding-bottom: 32px;
+}
+
+@media screen and (width <= 1365px) {
+  .story__text {
+    font-size: 24px;
+    line-height: 1.24;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+}
+
+@media screen and (width <= 767px) {
+  .story__text {
+    font-size: 18px;
+    line-height: 1.4;
+  }
 }
 
 .story__logo-logitech {
@@ -47,8 +105,20 @@
   background: var(--base-bg-secondary);
 }
 
+@media screen and (width <= 1023px) {
+  .story__button {
+    line-height: 1.4;
+  }
+}
+
 .story__swap {
   padding-top: 30px;
+}
+
+@media screen and (width <= 1023px) {
+  .story__swap {
+    padding-top: 16px;
+  }
 }
 
 .story__img {

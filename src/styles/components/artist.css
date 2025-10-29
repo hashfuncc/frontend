@@ -13,6 +13,13 @@
   background: var(--base-bg-secondary);
 }
 
+@media screen and (width <= 767px) {
+  .artist__img {
+    width: 250px;
+    height: 280px;
+  }
+}
+
 .artist__name {
   font-family: var(--font-family);
   font-weight: 600;
@@ -26,6 +33,7 @@
 
 @media screen and (width <= 767px) {
   .artist__name {
+    text-align: center;
     font-size: 20px;
     line-height: 1.4;
     padding-top: 16px;
@@ -42,7 +50,8 @@
 }
 
 @media screen and (width <= 767px) {
-  .artist__name {
+  .artist__post {
+    text-align: center;
     font-size: 20px;
     line-height: 1.4;
     padding-top: 16px;

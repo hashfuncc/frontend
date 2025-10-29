@@ -31,6 +31,12 @@
   transition: color 0.2s ease;
 }
 
+@media screen and (width <= 767px) {
+  .nav__link {
+    font-size: 14px;
+  }
+}
+
 .nav__link:hover,
 .nav__link:focus {
   color: rgb(241 53 157);

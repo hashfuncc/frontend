@@ -6,15 +6,9 @@
   padding: 21px 129px 21px 111px;
 }
 
-@media (--md-viewport) {
+@media screen and (width <= 767px) {
   .header {
-    display: flex;
-    justify-content: space-between;
     padding: 16px;
-  }
-
-  .header__logo {
-    font-size: 20px;
   }
 }
 
@@ -34,6 +28,12 @@
   color: var(--base-text-logo);
 }
 
+@media screen and (width <= 767px) {
+  .header__logo {
+    font-size: 20px;
+  }
+}
+
 .header__logo:hover {
   color: rgb(241 53 157);
 }
@@ -41,6 +41,12 @@
 .header__nav {
   width: 100%;
   max-width: 500px;
+}
+
+@media screen and (width <= 1038px) {
+  .header__nav {
+    display: none;
+  }
 }
 
 .header__content {
